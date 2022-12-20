@@ -7,12 +7,17 @@ namespace Simple_CalculatorV2
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void form1_Load(object sender, EventArgs e)
         {
-            BackColor = Color.Black;
-            Text = "Change to Lightmode";
-            button1_Click();            
+            
+
         }
+
+        private void myButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         
     }
 }

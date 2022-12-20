@@ -28,38 +28,48 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
+            this.myButton1 = new Simple_CalculatorV2.MyButton();
             this.SuspendLayout();
             // 
-            // button1
+            // myButton1
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(620, 359);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(165, 74);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Change to Darkmode";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.myButton1.BackColor = System.Drawing.Color.MediumPurple;
+            this.myButton1.BackgroundColor = System.Drawing.Color.MediumPurple;
+            this.myButton1.BorderColor = System.Drawing.Color.Black;
+            this.myButton1.BorderRadius = 40;
+            this.myButton1.BorderSize = 1;
+            this.myButton1.FlatAppearance.BorderSize = 0;
+            this.myButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.myButton1.ForeColor = System.Drawing.Color.White;
+            this.myButton1.Location = new System.Drawing.Point(13, 13);
+            this.myButton1.Margin = new System.Windows.Forms.Padding(4);
+            this.myButton1.Name = "myButton1";
+            this.myButton1.Size = new System.Drawing.Size(193, 57);
+            this.myButton1.TabIndex = 0;
+            this.myButton1.Text = "myButton1";
+            this.myButton1.TextColor = System.Drawing.Color.White;
+            this.myButton1.UseVisualStyleBackColor = false;
             // 
             // form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(797, 445);
-            this.Controls.Add(this.button1);
+            this.BackColor = System.Drawing.Color.Indigo;
+            this.ClientSize = new System.Drawing.Size(1171, 850);
+            this.Controls.Add(this.myButton1);
+            this.Font = new System.Drawing.Font("Segoe UI Black", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "form1";
             this.Text = "Calculator V2";
+            this.Load += new System.EventHandler(this.form1_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private Button button1;
+        private MyButton myButton1;
     }
 }

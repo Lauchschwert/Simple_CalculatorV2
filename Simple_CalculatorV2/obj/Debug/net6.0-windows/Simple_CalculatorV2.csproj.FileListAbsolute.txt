@@ -15,3 +15,4 @@ C:\Users\ichhe\source\repos\Simple_CalculatorV2\Simple_CalculatorV2\obj\Debug\ne
 C:\Users\ichhe\source\repos\Simple_CalculatorV2\Simple_CalculatorV2\obj\Debug\net6.0-windows\Simple_CalculatorV2.pdb
 C:\Users\ichhe\source\repos\Simple_CalculatorV2\Simple_CalculatorV2\obj\Debug\net6.0-windows\Simple_CalculatorV2.genruntimeconfig.cache
 C:\Users\ichhe\source\repos\Simple_CalculatorV2\Simple_CalculatorV2\obj\Debug\net6.0-windows\ref\Simple_CalculatorV2.dll
+C:\Users\ichhe\source\repos\Simple_CalculatorV2\Simple_CalculatorV2\obj\Debug\net6.0-windows\Simple_CalculatorV2.Properties.Resources.resources

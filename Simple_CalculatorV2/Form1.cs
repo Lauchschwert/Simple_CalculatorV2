@@ -1,6 +1,7 @@
 using System.Drawing.Drawing2D;
 using System.ComponentModel;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.TextBox;
+using System.Windows.Forms.VisualStyles;
 
 namespace Simple_CalculatorV2
 {
@@ -35,6 +36,22 @@ namespace Simple_CalculatorV2
         private void round1_TextChanged(object sender, EventArgs e)
         {
             
+        }
+
+        private void myTextfield1_TextChanged(object sender, EventArgs e)
+        {
+            AutoSize = false;
+            
+        }
+
+        private void myButton5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void myButton6_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
